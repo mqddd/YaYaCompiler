@@ -15,9 +15,7 @@ public class grammarFreeBaseListener implements grammarFreeListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIf_rule(grammarFreeParser.If_ruleContext ctx) {
-		System.out.println("hi :)");
-	}
+	@Override public void enterIf_rule(grammarFreeParser.If_ruleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

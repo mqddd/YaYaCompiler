@@ -1,11 +1,8 @@
-import org.antlr.v4.runtime.CharStream;
-import org.antlr.v4.runtime.CharStreams;
-import org.antlr.v4.runtime.CommonTokenStream;
-import org.antlr.v4.runtime.tree.ParseTreeWalker;
+import org.antlr.v4.runtime.*;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.List;
 
 public class Main {
 
@@ -17,11 +14,30 @@ public class Main {
         CommonTokenStream stream = new CommonTokenStream(lexer);
         grammarFreeParser parser = new grammarFreeParser(stream);
 
-        grammarFreeParser.If_ruleContext tree = parser.if_rule();
+        Vocabulary vocabulary = lexer.getVocabulary();
 
-        grammarFreeBaseListener compiler = new grammarFreeBaseListener();
 
-        ParseTreeWalker walker = new ParseTreeWalker();
-        walker.walk(compiler, tree);
+        CommonTokenStream tokens = new CommonTokenStream(lexer);
+        do
+        {
+            tokens.consume();
+        } while (tokens.LA(1) != -1);
+
+        List<Token> tokenList = tokens.getTokens();
+        for (Token token : tokenList)
+        {
+            int type = token.getType();
+            String tname = token.getText();
+            //bigList.add(type);
+            int line = token.getLine();
+            System.out.printf("LINE %d - TOKEN %S\n", line, vocabulary.getSymbolicName(type));
+        }
+
+//        grammarFreeParser.If_ruleContext tree = parser.if_rule();
+//
+//        grammarFreeBaseListener compiler = new grammarFreeBaseListener();
+//
+//        ParseTreeWalker walker = new ParseTreeWalker();
+//        walker.walk(compiler, tree);
     }
 }
