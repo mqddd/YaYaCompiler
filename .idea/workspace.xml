@@ -2,37 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05bd635a-cdd6-4957-a1cc-afc13823a474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ConsoleColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFree.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFree.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFree.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeLexer.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeLexer.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ErrorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TokenRecognizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompilerFree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/YaYaCompiler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFree.g4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFree.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFree.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeParser.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeBaseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeLexer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeParser$If_ruleContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeParser$Var_defContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeParser.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +58,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Utils" />
     </key>
@@ -113,6 +92,7 @@
       <workItem from="1607681996478" duration="9686000" />
       <workItem from="1607792410948" duration="12424000" />
       <workItem from="1607837931158" duration="3498000" />
+      <workItem from="1607851899012" duration="5636000" />
     </task>
     <servers />
   </component>
@@ -124,22 +104,46 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="215" width="800" height="684" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1607803522316" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1607851950790">
+    <state x="768" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1607876724650">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607851950790" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1607851950789">
+    <state x="768" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1607876724650" />
+    <state x="713" y="414" width="494" height="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607877027537">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607851950789" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1607851950789">
+    <state x="713" y="414" width="494" height="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.1053@0.27.1920.1053" timestamp="1607877027537" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1607882076005">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607851950789" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1607851950790">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607882076005" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1607882076005">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607851950790" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607882076005" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1607882076005">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607882076005" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1607882076005">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607882076005" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1607881596074">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607881596074" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1607881596074">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607881596074" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1607881596074">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607881596074" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1607881596074">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607881596074" />
     <state x="131" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1607839997442">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

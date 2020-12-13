@@ -4,4 +4,5 @@ a[24]="7";
 n!=if;
 false,
 -if;true32;
-forpar
+forparnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+$$
