@@ -2,22 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05bd635a-cdd6-4957-a1cc-afc13823a474" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ConsoleColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFree.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFree.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFree.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeLexer.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeLexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeLexer.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompilerFree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/YaYaCompiler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFree.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grammarFree.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFree.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grammarFree.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFree.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grammarFree.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grammarFreeBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grammarFreeParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFree.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFree.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFree.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/grammarFreeBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grammarFreeParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grammarFreeBaseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grammarFreeLexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeParser$If_ruleContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grammarFreeParser$If_ruleContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeParser$Var_defContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grammarFreeParser$Var_defContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grammarFreeParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeBaseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeParser$If_ruleContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeParser$Var_defContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grammarFreeParser.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +75,20 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Utils" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="CompilerFree" />
+      <module name="YaYaCompiler" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,7 +109,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607681992543</updated>
-      <workItem from="1607681996478" duration="7970000" />
+      <workItem from="1607681996478" duration="9686000" />
+      <workItem from="1607792410948" duration="12424000" />
+      <workItem from="1607837931158" duration="3498000" />
     </task>
     <servers />
   </component>
@@ -94,22 +119,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1607716464259">
+    <state x="555" y="215" width="800" height="684" key="#Project_Structure" timestamp="1607803522316">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607716464259" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1607716464259">
+    <state x="555" y="215" width="800" height="684" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1607803522316" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1607851750611">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607716464259" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1607716464259">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607851750611" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1607851750611">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607716464259" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1607716464259">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607851750611" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1607851750610">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607716464259" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607851750610" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1607851750611">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607851750611" />
+    <state x="131" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1607839997442">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="131" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1607839997442" />
     <state x="581" y="224" width="748" height="665" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607682039018">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

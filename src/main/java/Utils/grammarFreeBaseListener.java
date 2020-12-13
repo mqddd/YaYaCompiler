@@ -1,4 +1,4 @@
-// Generated from grammarFree.g4 by ANTLR 4.9
+package Utils;// Generated from grammarFree.g4 by ANTLR 4.9
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -15,25 +15,13 @@ public class grammarFreeBaseListener implements grammarFreeListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIf_rule(grammarFreeParser.If_ruleContext ctx) { }
+	@Override public void enterFirs_rule(grammarFreeParser.Firs_ruleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIf_rule(grammarFreeParser.If_ruleContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterVar_def(grammarFreeParser.Var_defContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitVar_def(grammarFreeParser.Var_defContext ctx) { }
+	@Override public void exitFirs_rule(grammarFreeParser.Firs_ruleContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
