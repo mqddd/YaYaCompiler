@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        CharStream charStream = CharStreams.fromFileName("/home/meqdad/IdeaProjects/CompilerFree/src/main/java/source.txt");
+        CharStream charStream = CharStreams.fromFileName("/home/meqdad/IdeaProjects/YaYaCompiler/src/main/java/source.txt");
         grammarFreeLexer lexer = new grammarFreeLexer(charStream);
         Vocabulary vocabulary = lexer.getVocabulary();
         CommonTokenStream tokens = new CommonTokenStream(lexer);
