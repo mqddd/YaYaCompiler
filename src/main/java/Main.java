@@ -2,12 +2,15 @@ import Utils.grammarFreeLexer;
 import org.antlr.v4.runtime.*;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
 
+    private static Scanner in = new Scanner(System.in);
     public static void main(String[] args) throws IOException {
 
-        CharStream charStream = CharStreams.fromFileName("/home/meqdad/IdeaProjects/YaYaCompiler/src/main/java/source.txt");
+        String sourceAddress = in.next();
+        CharStream charStream = CharStreams.fromFileName(sourceAddress);
 
         ErrorListener errorListener = new ErrorListener();
 
